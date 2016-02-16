@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.easy.jumpjump" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>JumpJump</name>
+    <description>
+        a project used to learn Game APP programming with Phaser framework
+    </description>
+    <author email="zhongzhu@ymail.com" href="http://cordova.io">
+        Zhu Zhong
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <preference name="Orientation" value="landscape" />
+
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="17"/>
+        <preference name="android-targetSdkVersion" value="22"/>
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
